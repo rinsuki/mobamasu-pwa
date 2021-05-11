@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "mobamasu-pwa",
+    "description": "モバマスを PWA アプリとして開けるようにします",
+    "app": {
+        "urls": ["*://sp.pf.mbga.jp/12008305/"],
+        "launch": {
+            "web_url": "http://sp.pf.mbga.jp/12008305/",
+            "container": "panel"
+        },
+        "width": 400
+    }
+}
